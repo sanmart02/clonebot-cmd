@@ -21,16 +21,16 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 class Config(object):
 
     # Get a bot token from botfather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = "6015933908:AAG9tDZkkz-LG2Tx_Lz3KZGm0oeaMrGzzno"
 
     # Get from my.telegram.org
-    APP_ID = int(os.environ.get("APP_ID", ""))
+    APP_ID = 27885485
 
     # Get from my.telegram.org
-    API_HASH = os.environ.get("API_HASH", "")
+    API_HASH = "7dd9974c713787410beae4a295cc1e2d"
 
     # Generate a user session string
-    TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "")
+    TG_USER_SESSION = 
 
 
 def LOGGER(name: str) -> logging.Logger:
